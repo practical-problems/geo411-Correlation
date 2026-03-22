@@ -22,6 +22,7 @@ t <- (r * sqrt(n-2)) / sqrt(1 - r^2)
 t
 
 tcrit <- qt(p = 0.025, df = n-2, lower.tail = TRUE)
+tcrit
 
 cor.test(wdt$GDPPerCapita,wdt$LifeExpectancy,method = "pearson")
 
